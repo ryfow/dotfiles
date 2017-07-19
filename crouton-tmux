@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ "1" == "$(ps -ef | grep infinity | wc -l)" ]] ; then
+  sudo enter-chroot -b sleep infinity
+fi
+
+sudo enter-chroot tmux "$@"
