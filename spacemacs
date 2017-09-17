@@ -34,7 +34,7 @@ values."
    dotspacemacs-configuration-layers
    '(
      purescript
-     python
+     ;;python
      go
      nginx
      lua
